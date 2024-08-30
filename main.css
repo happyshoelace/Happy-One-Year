@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Salsa&display=swap');
+
+@keyframes color-change {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: rgb(252, 196, 10); }
+    42% { color: green; }
+    56% { color: blue; }
+    70% { color: indigo; }
+    84% { color: violet; }
+    100% { color: red; }
+  }
+  
+
+h1,h2,h3{
+    font-family: "Matemasie", sans-serif;
+}
+
+p{
+    font-family: "Salsa", cursive;
+}
+
+.main{
+    margin:50px 150px 50px 150px;
+    background-color: rgb(212, 145, 202);
+    color: white;
+    padding: 3%;
+}
+
+body {
+    background-image: url("./res/makesweet-eqew63.gif");
+    background-repeat: repeat;
+}
+
+span:hover{
+    animation: color-change 10s infinite;
+}
+
+img{
+    width: 500px;
+}
